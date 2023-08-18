@@ -1,0 +1,22 @@
+/* styles/signInSection.module.css */
+.container {
+    border-radius: 10px;
+    border: 1px solid rgb(209, 208, 208);
+    margin: 25px 50px;
+    /* Adjust margin-top as needed to bring the section below the navbar */
+    margin-bottom: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Add media query for responsive layout */
+@media screen and (max-width: 600px) {
+    .buttonsContainer {
+        flex-direction: column;
+    }
+}

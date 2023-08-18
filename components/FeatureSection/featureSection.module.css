@@ -1,0 +1,58 @@
+/* components/FeatureSection.module.css */
+.featureSection {
+  border-radius: 10px;
+  border: 1px solid rgb(209, 208, 208);
+  padding: 20px;
+  margin: 20px 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* position: relative; */
+}
+
+.titleRectangle {
+  background-color: #5897DD;
+  padding: 5px 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: -10px; /* Adjust the top position to move the .titleRectangle inside the top border */
+
+}
+
+.titleRectangle p {
+  margin: 0;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.itemsContainer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+
+/* components/FeatureSection.module.css */
+/* ... Existing CSS rules ... */
+
+.featureItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featureItem img {
+  width: 100%; /* Adjust the image width as needed */
+  border-radius: 5px;
+}
+
+.featureItem p {
+  margin-top: 10px;
+  text-align: center;
+}

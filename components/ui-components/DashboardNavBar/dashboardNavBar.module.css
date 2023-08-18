@@ -1,0 +1,22 @@
+/* components/navbar.module.css */
+.navbar {
+    display: flex;
+    /* position: fixed;  */
+    top: 0; /* Position the navbar at the top of the viewport */
+    left: 0; /* Position the navbar at the left side of the viewport */
+    right: 0; /* Position the navbar at the right side of the viewport */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    color: black;
+    background-color: #fff; /* Add a background color to the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow for a nice effect */
+    z-index: 1; /* Set a higher z-index to make sure the navbar is above other elements */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
