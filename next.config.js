@@ -3,6 +3,7 @@ const nextConfig = {}
 
 
 module.exports = {
+    distDir: 'out',
     async rewrites() {
       return [
         {
