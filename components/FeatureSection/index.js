@@ -4,7 +4,7 @@ import Section from "@/components/ui-components/Section";
 import Input from "@/components/ui-components/Input";
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import styles from './FeatureSection.module.css';
+import styles from './featureSection.module.css';
 
 const FeatureSection = () => {
 
