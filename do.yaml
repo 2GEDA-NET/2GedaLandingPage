@@ -1,8 +1,0 @@
-name: 2gedaLandingPage
-region: us-east
-services:
-  - name: web
-    github:
-      repo: Wizard-Fingerz/repo
-    build_command: npm install && npm run build # Modify this to match your build setup
-    output_dir: build # Specify the build output directory here
